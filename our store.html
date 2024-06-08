@@ -1,0 +1,570 @@
+<html>
+    <head>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="icon" href="images/Screenshot 2024-06-06 152434.png">
+
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+       
+        input {
+  border:none;
+  outline:none;
+  padding:10px;
+}
+        button{
+            padding:1px;
+            border:none;
+            font-size:20px;
+        }
+        .set{
+            width:450px;
+            border-bottom-left-radius: 20px;
+            border-top-left-radius: 20px;
+            position:relative;
+           left:30px;
+           border-right:transparent;
+           margin-top: 20px;
+           padding:20px;
+            border-color:whitesmoke;
+            margin-left:20px;
+        }
+        iframe{
+          position: absolute;
+          top: 380px;
+          left: 620px;
+            
+        }
+        .scroll{
+            overflow-y: scroll;
+                height:280px;
+                color:black;
+                width:520px;    
+        }
+        h2{
+        font-size:50px;
+        text-align:center;
+        color:deeppink;
+        }
+        .h3{
+            font-size:50px;
+            text-align:center;
+            margin-top:-50px;
+
+        }
+        .border{
+            background-color:whitesmoke;  
+            padding:40px;
+            border-bottom-right-radius:20px;
+            border-top-right-radius: 20px;
+            border-bottom-left-radius: 20px;
+            border-top-left-radius: 20px;
+            width:92%;
+            margin-left:30px;
+        }
+button {
+  background-color: transparent;
+  border: none;
+  margin: 0;
+  cursor:line;
+}
+img{
+    height:200px;
+    width:200px;
+    
+}
+p{
+            margin-left:-40px;
+            margin-right: 40px;
+            width: 100px;
+        }
+        h1{
+            margin-left:60px;
+            color:deeppink;
+            margin-top:-90px;
+        }
+        .image{
+            width:350px;
+            height:370px;
+            padding:50px;
+            margin-left:30px;
+            margin-top:-50px;
+           
+        }
+        .image:hover{
+            transform:translateY(-50px);
+            shape-image-threshold: 20px;;
+        }
+        h5{
+            display:inline;
+            font-size:30px;
+            padding:50px;
+            margin-left:-370px;
+            text-align: center;
+            margin-top:350px;
+        }
+        h4{
+            position: absolute;
+            top: 1100px;
+            left: 550px;
+            font-size:50px;
+            color: deeppink;
+            text-align: center;
+        }
+        h6{
+            font-size:50px;
+            position: absolute;
+            top: 1110px;
+            left: 550px;
+            font-size:50px;
+            text-align: center;
+        }
+        .nav-item{
+            display:flex;
+            background-color:bisque;
+            text-align:center;
+            padding:2px;
+            height:90px;
+            margin-top:20px;
+        }
+        ul{
+            display: flex;
+            list-style-type: none;
+            margin-left: 300px;
+            margin-top:-6px;   
+        }
+        .header{
+            font-size:30px;
+            text-align:center;
+            width:97.5%;
+            margin-left:30px;
+        }
+        li{
+            margin-left: 70px;
+        }
+        .order{
+            width:200px;
+            background-color: deeppink;
+            color:white;
+    
+            font-size:30px;
+            margin-top:500px;
+            margin-left:-290px;
+            padding:5px;
+        }
+        .order1{
+            margin-left:-235px;
+            width:200px;
+            background-color: deeppink;
+            color:white;
+            padding:5px;
+            font-size:30px;
+            margin-top:500px;
+        }
+        .order2{
+            margin-left:-225px;
+            width:200px;
+            background-color: deeppink;
+            color:white;
+            padding:5px;
+            font-size:30px;
+            margin-top:500px;   
+        }
+        .img-item{
+            display:flex;
+            margin-left:10px;
+            position: absolute;
+            top: 1400px;
+            left: -70px;
+        
+        }
+        .box-item{
+            position:relative;
+            height:100%;
+        }
+        .hed12{
+            width:98%;
+            height:150%;
+            margin-top:80px;
+            margin-left:20px;
+        }
+   .ref{
+    text-decoration:none;
+    display:block;
+    color:white;
+    text-indent: none;
+    padding:7px;
+   }
+.hed13{
+    margin-left:600px;
+    display:block;
+    margin-top:-130px;
+}
+.hed14{
+    margin-left:400px;
+    display:block;
+    margin-top:-550px;
+}
+.hed15{
+    margin-left:1200px;
+    font-size:30px;
+    color:white;
+}
+.h4{
+    font-size:20px;
+    color:white;
+    position: absolute;
+    top: 500px;
+}
+.btn2{
+    border-bottom-right-radius:15px;
+            border-top-right-radius: 15px;
+            border-bottom-left-radius: 15px;
+            border-top-left-radius: 15px;
+            background-color: deeppink;
+            padding:13px;
+            margin-left:-15px;
+}
+.fom1{
+    margin-left:-450px;
+    border-bottom-right-radius:10px;
+            border-top-right-radius: 10px;
+            border-bottom-left-radius: 10px;
+            border-top-left-radius: 10px;
+            padding:17px;
+            width:270px;
+            margin-top:-30px;
+}
+.hed15{
+    margin-top:-152px;
+}
+.hed16{
+    margin-top:500px;
+    color:white;
+    font-size:17px;
+    display:inline;
+}
+.image-item{
+    height:40px;
+     width:40px;
+     position:relative;
+     left:700px;
+     margin-top:-100px;
+
+}
+.site{
+    color:white;
+    text-decoration: none;
+    margin-left:1100px;
+    margin-bottom:50px;
+}
+.p{
+    margin-top:170px;
+}
+.map{
+    position: absolute;
+    top: 400px;
+    left: 540px;
+}
+footer{
+    background-image: url("images/Footer_BG_New.png");
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    width: 100%;
+    position: absolute;
+    top:2050px;
+    height: 555px; 
+}
+.a198{
+    position: absolute;
+    top:2270px;
+    color:black;
+    z-index: 1;
+    left: 370px;
+    font-size: 24px;
+}
+
+.a199{
+    position: absolute;
+    top:2310px;
+    left: 370px;
+    font-size: 24px;
+    z-index: 1;
+
+}
+.a200{
+    position: absolute;
+    top:2340px;
+    z-index: 1;
+    left: 370px;
+    font-size: 24px;
+
+}
+.a201{
+    position: absolute;
+    top:2380px;
+    left: 370px;
+    font-size: 24px;
+    z-index: 1;
+}
+.main1{
+    position: absolute;
+    top: 2330px;
+    left: 600px;
+    z-index: 1;
+}
+input{
+    padding: 15px;
+    border: none;
+    width: 200px;
+    border-radius: 20px;
+}
+input:active{
+    border: 1px solid #F04E98;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    background-color: white;
+    width: 100%;
+    z-index: 1000;
+}
+.kii{
+    margin-left: 60px;
+    width: 200px;
+}
+.kii1{
+    margin-left: 300px;
+    margin-top: 10px;
+}
+a{
+    text-decoration: none;
+    margin-top: 15px;
+}
+a:hover{
+    text-decoration: underline;
+}
+.ll{
+    width: 200px;
+    height: 50px;
+    margin-right: 50px;
+}
+        </style>
+<header class="main">
+    <nav class="kk">
+        <div class="kii"><a href="index.html"><img class="ll" src="images/Main_Logo.webp" ></a></div>
+        <a href="html.html"><i style="margin-right:10px; font-size: 13px; color: #f707b1;" class="fa-regular fa-handshake"></i>Partner with us</a></button>
+        <a href="aboutus.html"><i style="margin-right: 10px; font-size: 13px; color: #f707b1;" class="fa-regular fa-user"></i>About us</a>
+        <a href="our store.html"><i  style="margin-right: 10px; font-size: 13px; color: #f707b1;"  class="fa-solid fa-store"></i>Our stores</a>
+        <a href="shop.html"><i style="margin-right: 10px; font-size: 13px; color: #f707b1;" class="fa-solid fa-cart-shopping"></i>Shop</a>
+    </nav>
+</header>
+
+
+
+
+        <div class="border">
+        <h2>Baskin Robbins</h2>
+            <h3 class="h3">Near You</h3>
+        </div>
+        <body>
+           
+           <form>
+            <div class="box-item">
+            <fieldset class="set">
+            <button><i class="fa-solid fa-magnifying-glass"></i></button><input type="" placeholder="Type a Postcode and Address....">
+            <hr>
+            </form>
+            <nav class="scroll">
+                <img src="images/NaughtyNutella_414x@2x.webp"> <h1>Baskin Robbins</h1>
+                <p>NH 44, Opposite Police Balanagar Station, Mehboob Nagar, Telangana<br>
+                    Hyderabad, Telangana 509202<br>
+                    India</p>
+                <hr>
+                <img src="images/Vanilla_414x@2x.webp"> <h1>Baskin Robbins</h1>
+<p>
+Raghuram Nagar, Near Suncity, Bandla Guda, Hyderabad, Telangana<br>
+Hyderabad, Telangana 500091<br>
+India</a></p>
+<hr>
+<img src="images/Dark_Choco_414x@2x.webp"><h1>Baskin Robbins</h1>
+<p>
+Inorbit Mall, Hitec City, Madhapur, Hyderabad, Telangana<br>
+Hyderabad, Telangana 500058<br>
+India</a></p>
+<hr>
+<img src="images/Black_Current_414x@2x.webp"><h1>Baskin Robbins</h1>
+<p>
+Amanda, Lalamma Gardens, Manikonda, Hyderabad, Telangana<br>
+Hyderabad, Telangana 500089<br>
+India</p>
+<hr>
+<img src="images/Vanilla_414x@2x.webp"><h1>Baskin Robbins</h1>
+<p>Saraswathi Complex, Ramalaxmana Junction, Srikakulam, Andhra Pradesh<br>
+Hyderabad, Telangana 532001<br>
+India</p>
+<hr>
+<img src="images/Screenshot 2024-06-07 225842.png"><h1>Baskin Robbins</h1>
+<p>MC Arcade, Magunta Layout, Nellore, Andhra Pradesh<br>
+Hyderabad, Telangana 525003<br>
+India</p>
+<hr>
+<img src="images/Snickers-Caramel-Sundae_414x@2x.webp"><h1>Baskin Robbins</h1>
+<p>Subishi S Town Centre, Shankar Pally Manda, Hyderabad, Telangana<br>
+Hyderabad, Telangana 501203<br>
+India</p>
+<hr>
+<img src="images/FerreroMomentsMousse_414x@2x.webp"><h1>Baskin Robbins</h1>
+<p>Ttd Function Hall & V.T School Road, Danavaipet, Rajahmundry, Andhra Pradesh<br>
+Hyderabad, Telangana 533103<br>
+India</p>
+<hr>
+<img src="images/Vanilla_414x@2x.webp"><h1>Baskin Robbins</h1>
+<p>M/s. Mani Foods, S V V Nagar, Hyderabad, Telangana<br>
+Hyderabad, Telangana 500007<br>
+India</p>
+<hr>
+<img src="images/Dark_Choco_414x@2x.webp"><h1>Baskin Robbins</h1>
+<p>Salarjung Colony, Tolichwoki, Hyderabad, Telangana<br>
+Hyderabad, Telangana 500008<br>
+India</p>
+<hr>
+<img src="images/NaughtyNutella_414x@2x.webp"><h1>Baskin Robbins</h1>
+<p>TNGOs colony, Gachibowlli, Hyderabad, Andhra Pradesh<br>
+Hyderabad, Telangana 500032<br>
+India</p>
+<hr>
+<img src="images/Dark_Choco_414x@2x.webp"><h1>Baskin Robbins</h1>
+<p>386/E1, Opposite Aliens Space Station, Sangareddy, Hyderabad, Telangana<br>
+Hyderabad, Telangana 502031<br>
+India</p>
+<hr>
+<img src="images/Vanilla_414x@2x.webp"><h1>Baskin Robbins</h1>
+<p>Saleem Nagar Colony, Malakpet, Hyderabad, Telangana<br>
+Hyderabad, Telangana 500036<br>
+India</p>
+<hr>
+<img src="images/Screenshot 2024-06-07 225842.png"><h1>Baskin Robbins</h1>
+<p>Next To Spice Touch, Banjara Hills Road, Hyderabad, Telangana<br>
+Hyderabad, Telangana 500034<br>
+India</p>
+<hr>
+<img src="images/Screenshot 2024-06-07 225842.png"><h1>Baskin Robbins</h1>
+<p>Huda Techno Enclave Phoenix Tower A, Madhapur, Hyderabad, Telangana<br>
+Hyderabad, Telangana 500081<br>
+India</p>
+<hr>
+<img src="images/NaughtyNutella_414x@2x.webp"><h1>Baskin Robbins</h1>
+<p>92/1,92/3, Gachibowli, Hyderabad, Telangana<br>
+Hyderabad, Telangana 500032<br>
+India</p>
+<hr>
+<img src="images/Black_Current_414x@2x.webp"><h1>Baskin Robbins</h1>
+<p>3-6-142/A, Himayat Nagar, Hyderabad, Telangana<br>
+Hyderabad, Telangana 500029<br>
+India</p>
+<hr>
+<img src="images/SCOOPS_d9897fbb-eccc-4995-af2f-a41db70e9c65_414x@2x.webp"><h1>Baskin Robbins</h1>
+<p>Bhargavi Enclave, Gandhi Nagar, Hyderabad, Telangana<br>
+Hyderabad, Telangana 500080<br>
+India</p>
+<hr>
+<img src="images/FerreroMomentsMousse_414x@2x.webp"><h1>Baskin Robbins</h1>
+<p>A Block, Sriram Nagar, Kondapur, Telangana<br>
+Hyderabad, Telangana 500084<br>
+India</p>
+<hr>
+<img src="images/Vanilla_414x@2x.webp"><h1>Baskin Robbins</h1>
+<p>D.No.180, Prashant Nagar, Vanastalipuram Main Road, Hyderabad, Telangana<br>
+Hyderabad, Telangana 500070<br>
+India</p>
+<hr>
+<img src="images/Dark_Choco_414x@2x.webp"><h1>Baskin Robbins</h1>
+<p>Gulmohar Park Colony, Nallagandla Bypass Rd, Hyderabad, Telangana<br>
+Hyderabad, Telangana 500019<br>
+India</p>
+<hr>
+
+<img src="images/SCOOPS_d9897fbb-eccc-4995-af2f-a41db70e9c65_414x@2x.webp"><h1>Baskin Robbins</h1>
+<p>Madhura Nagar, Beeramguda, Sangareddy, Telangana<br>
+Hyderabad, Telangana 500085<br>
+India
+</p>
+<hr>
+<img src="images/FerreroMomentsMousse_414x@2x.webp"><h1>Baskin Robbins</h1>
+<p>Ground Floor, Shop No 06, Gold Tamara, Vivekananda Nagar<br>
+Kota, Rajasthan 324010<br>
+India</p>
+<hr>
+<img src="images/Dark_Choco_414x@2x.webp"><h1>Baskin Robbins</h1>
+<p>
+SRR Arcade, Trimulgherry, Secunderabad, Telangana<br>
+Hyderabad, Telangana 500035<br>
+India</p>
+<hr>
+<img src="images/NaughtyNutella_414x@2x.webp"><h1>Baskin Robbins</h1>
+<p>Vijay Vihar Center, Beside Pantaloons, Eluru, Hyderabad, Andhra Pradesh<br>
+Hyderabad, Telangana 534002<br>
+India</p>
+<hr>
+<img src="images/Vanilla_414x@2x.webp"><h1>Baskin Robbins</h1>
+<p>Adjacent to the Bank of India, Defense Colony, Sainkpuri, Hyderabad, Telangana<br>
+Hyderabad, Telangana 500094<br>
+India</p>
+<hr>
+<img src="images/Dark_Choco_414x@2x.webp"><h1>Baskin Robbins</h1>
+<p>Opposite Ram Mandir Station, Raichur, Karnataka<br>
+Raichur, Karnataka 584101<br>
+India</p>
+           
+</fieldset> 
+</div>  
+        </nav>
+        <iframe   src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15226.162275991222!2d78.3869526!3d17.4338224!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb972fe66d4711%3A0x7f2d27691ca15313!2sInorbit%20Mall%20Cyberabad!5e0!3m2!1sen!2sin!4v1717672282478!5m2!1sen!2sin" width="650" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <h4>All Time</h4>
+           <h6> Favorites</h6>
+           <div class="img-item">
+            <img class="image" src="images/CnC_414x@2x.webp"> 
+            <h5>Cookies 'N Cream</h5><br>
+            <button><h1 class="order">ORDER NOW</h1></button>
+            <img class="image" src="images/Vanilla_414x@2x.webp"> 
+            <h5>Classic Vanilla</h5><br>
+            <button><h1 class="order1">ORDER NOW</h1></button>
+            <img class="image" src="images/Dark_Choco_414x@2x.webp">
+            <h5>Three Cheers<br> Chocolate</h5><br>
+            <button><h1 class="order2">ORDER NOW</h1></button>
+        </div>
+        <section class="kk78">
+            <div class="a198">
+            <a  style="color: white; text-decoration: none;" href="index.html">Home</a>
+            </div>
+            <div class="a199">
+                <a style="color: white; text-decoration: none;" href="aboutus.html">About us</a>
+            </div>
+            <div class="a200">
+                <a style="color: white;text-decoration: none;" href="our store.html">Our Stores</a>
+            </div> 
+            <div class="a201">
+                <a style="color:white;text-decoration: none;" href="shop.html">Blogs</a>
+            </div>
+            <div class="main1">
+                <p style="color: white; font-weight: bold; position: absolute;top: -60px; width: 200px; left: 50px;">Subscribe to news letter</p>
+                <input type="text" placeholder="Enter your email">
+                <button style="padding-top: 9px;padding-bottom: 14px; padding-left: 16px; padding-right: 16px; margin-left: -40px; border: none; color: white; background-color: #f707b1; font-weight:bold; border-top-right-radius: 20px;cursor: pointer; border-bottom-right-radius: 20px;" class="aq">Submit</button>
+            </div>
+        </section>
+<footer>
+    <p style="position: absolute;left: 150px; width: 300px;  top: 390px ;color: white; font-size: 15px;">&#169;	Copyright | Sriram team India</p>
+    <a href="https://www.facebook.com/BaskinRobbinsIn/"> <i style=" position: absolute; top: 400px; left:500px;color: white; font-size: 25px"; class="fa-brands fa-facebook"></i></a>
+  <a href="https://www.instagram.com/baskinrobbinsin/?hl=en"><i style=" position: absolute; top: 400px; left:530px;color: white; font-size: 25px";  class="fa-brands fa-square-instagram"></i></a>
+  <a href="https://x.com/i/flow/login?redirect_after_login=%2FBaskinRobbinsIn"><i style=" position: absolute; top: 400px; left:560px;color: white; font-size: 25px"; class="fa-brands fa-square-x-twitter"></i></a>
+   <a href="https://www.youtube.com/user/BaskinRobbinsIn"><i style=" position: absolute; top: 400px; left:590px;color: white; font-size: 25px"; class="fa-brands fa-youtube"></i></a>
+</footer>
+        </body>
+</html>
